@@ -3,7 +3,7 @@
 port="$1"
 QBT_USER=admin
 QBT_PASS=adminadmin
-QBT_PORT=8080
+QBT_PORT=8081
 
 echo "Setting qBittorrent port settings ($port)..."
 # Very basic retry logic so we don't fail if qBittorrent isn't running yet
